@@ -1,0 +1,47 @@
+# Secrets (commit examples only)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.p12
+*.jks
+*.keystore
+service-account*.json
+**/key.properties
+
+# JavaScript
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/.pub-cache/
+**/.pub/
+**/flutter_*.png
+**/app.*.symbols
+**/app.*.map.json
+
+# Gradle / Android
+**/.gradle/
+**/.cxx/
+**/local.properties
+**/captures/
+*.apk
+*.aab
+
+# IDE / OS / logs
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log

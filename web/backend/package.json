@@ -1,0 +1,11 @@
+{
+  "name": "soilsense-admin-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free API foundation for the SoilSense admin web portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check router.js && node --check auth/firebaseToken.js"
+  }
+}

@@ -1,0 +1,9 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Login-only package: deny file access until each storage path has an explicit rule.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
